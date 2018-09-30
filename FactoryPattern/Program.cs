@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FactoryPattern
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ShapeFactory sf = new ShapeFactory();
+            Shape shape= sf.getShapes("square");
+            shape.draw();
+            Console.ReadKey();
+        }
+    }
+} 
