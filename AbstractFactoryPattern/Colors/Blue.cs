@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern.Colors
 {
-    class Blue: Interfaces.Color
+    class Blue: Interfaces.IColor
     {
         public void Paint()
         {

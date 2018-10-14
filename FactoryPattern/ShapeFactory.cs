@@ -11,7 +11,7 @@ namespace FactoryPattern
     class ShapeFactory
     {
         //use getShapes method to get object of type shape 
-        public Shape getShapes(string ShapeName)
+        public IShape getShapes(string ShapeName)
         {
             if (ShapeName == null)
             {

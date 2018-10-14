@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern.Shapes
 {
-    class Rectangle : Shape
+    class Rectangle : IShape
     {
         public void draw()
         {

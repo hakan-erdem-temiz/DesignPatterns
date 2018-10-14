@@ -9,12 +9,12 @@ namespace AbstractFactoryPattern.Factories
 {
     class ShapeFactory: AbstractFactory
     {
-        public override Color GetColors(string color)
+        public override IColor GetColors(string color)
         {
             return null;
         }
 
-        public override Shape GetShapes(string ShapeName)
+        public override IShape GetShapes(string ShapeName)
         {
             if (ShapeName == null)
             {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern.Interfaces
 {
-    interface Shape
+    interface IShape
     {
         void draw();
     }

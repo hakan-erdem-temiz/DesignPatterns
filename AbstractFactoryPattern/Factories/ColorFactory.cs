@@ -10,7 +10,7 @@ namespace AbstractFactoryPattern.Factories
 {
     class ColorFactory : AbstractFactory
     {
-        public override Color GetColors(string color)
+        public override IColor GetColors(string color)
         {
 
             if (color == null)
@@ -36,7 +36,7 @@ namespace AbstractFactoryPattern.Factories
 
         }
 
-        public override Shape GetShapes(string shape)
+        public override IShape GetShapes(string shape)
         {
             return null;
         }

@@ -11,7 +11,7 @@ namespace FactoryPattern
         static void Main(string[] args)
         {
             ShapeFactory sf = new ShapeFactory();
-            Shape shape= sf.getShapes("square");
+            IShape shape= sf.getShapes("square");
             shape.draw();
             Console.ReadKey();
         }

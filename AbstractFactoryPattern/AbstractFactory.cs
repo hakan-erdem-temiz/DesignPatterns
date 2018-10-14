@@ -9,8 +9,8 @@ namespace AbstractFactoryPattern
 {
     abstract class AbstractFactory
     {
-        public abstract Color GetColors(string color);
-        public abstract Shape GetShapes(string shape);
+        public abstract IColor GetColors(string color);
+        public abstract IShape GetShapes(string shape);
 
 
     }

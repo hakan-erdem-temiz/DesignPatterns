@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractFactoryPattern
 {
-    class Circle : Interfaces.Shape
+    class Circle : Interfaces.IShape
     {
         public void draw()
         {

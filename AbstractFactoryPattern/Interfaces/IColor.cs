@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern
+namespace AbstractFactoryPattern.Interfaces
 {
-    interface Shape
+    interface IColor
     {
-        void draw();
+        void Paint();
     }
 }

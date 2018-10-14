@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{95A90FF2-940B-4E15-9A61-0E47F5D49FBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxShop-FactoryPattern", "FactoryPattern\BoxShop-FactoryPattern.csproj", "{F7CEBAD3-3512-4FA1-8315-3EAE3C631540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{F7CEBAD3-3512-4FA1-8315-3EAE3C631540}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxShop-AbstractFactoryPattern", "AbstractFactoryPattern\BoxShop-AbstractFactoryPattern.csproj", "{3FABE91B-4CF0-4D98-8A09-0204823A872A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{3FABE91B-4CF0-4D98-8A09-0204823A872A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebComponent-SingletonPattern", "SingletonPattern\WebComponent-SingletonPattern.csproj", "{243B6FA7-C31F-4028-B647-D6FDFFF8C7B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{243B6FA7-C31F-4028-B647-D6FDFFF8C7B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "McDonalds-BuilderPattern", "McDonalds-BuilderPattern\McDonalds-BuilderPattern.csproj", "{3975176E-83EB-4F9E-86F6-5738AE6E1C71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95A90FF2-940B-4E15-9A61-0E47F5D49FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95A90FF2-940B-4E15-9A61-0E47F5D49FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95A90FF2-940B-4E15-9A61-0E47F5D49FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95A90FF2-940B-4E15-9A61-0E47F5D49FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F7CEBAD3-3512-4FA1-8315-3EAE3C631540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F7CEBAD3-3512-4FA1-8315-3EAE3C631540}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CEBAD3-3512-4FA1-8315-3EAE3C631540}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{243B6FA7-C31F-4028-B647-D6FDFFF8C7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{243B6FA7-C31F-4028-B647-D6FDFFF8C7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{243B6FA7-C31F-4028-B647-D6FDFFF8C7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3975176E-83EB-4F9E-86F6-5738AE6E1C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3975176E-83EB-4F9E-86F6-5738AE6E1C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3975176E-83EB-4F9E-86F6-5738AE6E1C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3975176E-83EB-4F9E-86F6-5738AE6E1C71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

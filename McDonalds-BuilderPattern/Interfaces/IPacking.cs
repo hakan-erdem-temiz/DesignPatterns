@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern.Interfaces
+namespace McDonalds_BuilderPattern.Interfaces
 {
-    interface Color
+    interface IPacking
     {
-        void Paint();
+        string Pack();
     }
 }

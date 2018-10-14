@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbstractFactoryPattern
+namespace McDonalds_BuilderPattern
 {
-    class Rectangle : Interfaces.IShape
+    class Bottle : Interfaces.IPacking
     {
-        public void draw()
+        public string Pack()
         {
-            Console.WriteLine("Rectangle");
+            return "Botttled";
         }
     }
 }

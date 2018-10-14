@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace FactoryPattern
 {
-    class Circle : IShape
+    interface IShape
     {
-        public void draw()
-        {
-            Console.WriteLine("Circle");
-        }
+        void draw();
     }
 }
